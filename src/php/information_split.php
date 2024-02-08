@@ -19,6 +19,7 @@ include "db.php";
 <table>
     <tr>
         <th>ID</th>
+        <th>Rating</th>
         <th>Company Name</th>
         <th>Job Title</th>
         <th>Location</th>
@@ -30,6 +31,7 @@ include "db.php";
     while ($row = $result->fetch_assoc()) {
         echo "<tr>";
         echo "<td>" . $row["idJob"] . "</td>";
+        echo "<td>" . $row["jobRating"] . "</td>";
         echo "<td>" . $row["jobCompanyName"] . "</td>";
         echo "<td>" . $row["jobJobTitle"] . "</td>";
         echo "<td>" . $row["jobLocation"] . "</td>";
