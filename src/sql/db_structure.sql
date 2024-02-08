@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : db:3306
--- Généré le : jeu. 08 fév. 2024 à 08:27
+-- Généré le : jeu. 08 fév. 2024 à 10:31
 -- Version du serveur : 8.0.30
 -- Version de PHP : 8.0.27
 
@@ -20,8 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Base de données : `db_india`
 --
-CREATE DATABASE IF NOT EXISTS `db_india` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
-USE `db_india`;
 
 -- --------------------------------------------------------
 
